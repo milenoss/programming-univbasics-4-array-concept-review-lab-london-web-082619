@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
 
-array.index { |x| [value_to_find].include?(x) }
+array.{ |x| [value_to_find].include?(x) }
 
 end
 
