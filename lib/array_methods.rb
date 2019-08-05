@@ -12,7 +12,7 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  array.max {|element| element.length == array.length}
+  array.max 
 
 end
 
